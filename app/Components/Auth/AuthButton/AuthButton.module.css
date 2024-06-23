@@ -1,0 +1,27 @@
+.button {
+  --AB-border-color: rgb(99, 95, 199);
+  --AB-background-color: rgb(43, 44, 55);
+  --AB-background-color--hover: rgb(255, 255, 255);
+  --AB-border-radius: 6px;
+  --AB-font-size: 18px;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border: 1px solid var(--AB-border-color);
+  color: var(--AB-border-color);
+  background: var(--AB-background-color);
+  border-radius: var(--AB-border-radius);
+  padding: 10px 20px;
+  font-weight: bold;
+  font-size: var(--AB-font-size);
+}
+
+.button:hover {
+  background: var(--AB-background-color--hover);
+  color: var(--AB-border-color);
+  cursor: pointer;
+}
